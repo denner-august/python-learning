@@ -1,4 +1,4 @@
 produto = float(input('qual o preço atual? '))
-desconto = ((5 * 100) / produto)
+desconto = (5 * produto) / 100
 teste = produto - desconto
-print('preço com desconto {}'.format(teste))
+print('preço com desconto {:.2f}'.format(teste))
